@@ -1,10 +1,82 @@
-# Portafolio Personal — Juan Diego Pardo Ballesteros
+# 👨‍💻 Juan Diego Pardo Ballesteros — Portafolio
 
-Portafolio web personal de **Juan Diego Pardo Ballesteros**, Ingeniero de Sistemas. Diseño oscuro, interactivo y completamente responsivo construido con React + Vite + TypeScript.
+> Portafolio web personal de **Juan Diego Pardo Ballesteros**, Ingeniero de Sistemas.  
+> Diseño oscuro, interactivo y completamente responsivo.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-diego-pardo-ballesteros-b96a4b2b9)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pardo250)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juandiegopardo05@gmail.com)
 
 ---
 
-## Tecnologías utilizadas
+## 🛠️ Skills
+
+### 💻 Lenguajes de programación
+
+[![My Skills](https://skillicons.dev/icons?i=python,java,cs,cpp,js,ts,html,css,kotlin,dart,swift&perline=11)](https://skillicons.dev)
+
+### 🚀 Frameworks & Librerías
+
+[![My Skills](https://skillicons.dev/icons?i=react,angular,nodejs,express,spring,flutter&perline=6)](https://skillicons.dev)
+
+### 🗄️ Bases de datos
+
+[![My Skills](https://skillicons.dev/icons?i=mysql,firebase,sqlite,supabase&perline=6)](https://skillicons.dev)
+![DBeaver](https://img.shields.io/badge/DBeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white)
+
+### ⚙️ DevOps & Infraestructura
+
+[![My Skills](https://skillicons.dev/icons?i=docker,kubernetes,githubactions&perline=6)](https://skillicons.dev)
+
+### 🔧 Herramientas
+
+[![My Skills](https://skillicons.dev/icons?i=git,github,figma,postman,bash&perline=6)](https://skillicons.dev)
+
+### 📚 Conocimientos adicionales
+
+![POO](https://img.shields.io/badge/POO-a855f7?style=for-the-badge)
+![Algoritmos](https://img.shields.io/badge/Algoritmos-a855f7?style=for-the-badge)
+![Estructuras de Datos](https://img.shields.io/badge/Estructuras_de_Datos-a855f7?style=for-the-badge)
+![REST APIs](https://img.shields.io/badge/REST_APIs-a855f7?style=for-the-badge)
+![Scrum](https://img.shields.io/badge/Scrum%2FAgile-a855f7?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-a855f7?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-a855f7?style=for-the-badge&logo=linux&logoColor=white)
+
+---
+
+## 📱 Proyectos
+
+### ⚡ Enerlex
+
+<img src="public/Projects/enerlex/logo.png" alt="Enerlex" width="200"/>
+
+> App móvil que conecta a toma corrientes inteligentes para encender o apagar dispositivos y ahorrar energía.
+
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
+
+🔗 [Ver repositorio](https://github.com/Enerlex-Project/Enerlex-flutter)
+
+---
+
+### 🦅 CondorApp
+
+<img src="public/Projects/condorapp/logo.png" alt="CondorApp" width="200"/>
+
+> Red social de viajes: crea reseñas, explora destinos turísticos, publica fotos, sigue usuarios y visualiza tu ubicación en un mapa interactivo.
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
+
+🔗 [Ver repositorio](https://github.com/Movil-Condorapp/Movil)
+
+---
+
+## 🎨 Stack del portafolio
+
+[![My Skills](https://skillicons.dev/icons?i=react,ts,vite,tailwind&perline=4)](https://skillicons.dev)
 
 | Tecnología | Uso |
 |---|---|
@@ -14,72 +86,12 @@ Portafolio web personal de **Juan Diego Pardo Ballesteros**, Ingeniero de Sistem
 | Framer Motion | Animaciones y transiciones |
 | react-type-animation | Efecto typewriter en el Hero |
 | react-scroll | Smooth scroll entre secciones |
-| react-intersection-observer | Animaciones al hacer scroll |
-| react-icons | Íconos (Simple Icons, Tabler, Font Awesome) |
-| @emailjs/browser | Envío de formulario de contacto sin backend |
+| react-icons | Íconos de tecnologías |
+| @emailjs/browser | Formulario de contacto sin backend |
 
 ---
 
-## Secciones del portafolio
-
-### Hero
-- Nombre con animación de entrada
-- Efecto typewriter que rota entre: *Ingeniero de Sistemas*, *Full Stack Developer*, *Problem Solver*, *Apasionado por el código*
-- Botones CTA: Ver proyectos / Contactar
-- Links a GitHub, LinkedIn y Email
-- Fondo con blobs animados y grid decorativo
-- Scroll indicator animado
-
-### Sobre mí
-- Avatar / foto de perfil
-- Descripción personal
-- 4 stat cards: Proyectos, Años de experiencia, Dedicación, Cafés tomados
-
-### Skills
-Organizado en 6 categorías con íconos, barras de nivel animadas y badges:
-
-**Lenguajes:** Python, Java, C#, C++, JavaScript, TypeScript, HTML, CSS, Kotlin, Dart, Swift
-
-**Frameworks & Librerías:** React, Angular, Node.js, Express, Spring Boot, Flutter
-
-**Bases de datos:** MySQL, Firebase, DBeaver, SQLite, Supabase
-
-**DevOps & Infraestructura:** Docker, Kubernetes, GitHub Actions
-
-**Herramientas:** Git, GitHub, Figma, Postman, Bash
-
-**Conocimientos adicionales:** POO, Algoritmos, Estructuras de Datos, REST APIs, Scrum/Agile, CI/CD, Linux
-
-### Proyectos
-Cards interactivas con imagen, descripción, tags de tecnologías y link a GitHub. Filtros por tecnología en tiempo real.
-
-| Proyecto | Descripción | Tecnologías |
-|---|---|---|
-| **Enerlex** | App móvil que conecta a toma corrientes inteligentes para encender/apagar dispositivos y ahorrar energía | Flutter, Supabase |
-| **CondorApp** | Red social de viajes: reseñas, destinos turísticos, fotos, seguidores y mapa interactivo de ubicación | Kotlin, Firebase, Node.js, Express |
-
-### Contacto
-- Links a GitHub, LinkedIn y Email
-- Formulario de contacto (EmailJS — sin backend)
-- Botón para descargar CV en PDF
-
----
-
-## Paleta de colores
-
-| Rol | Color |
-|---|---|
-| Fondo principal | `#0f172a` |
-| Fondo alterno | `#060d1f` |
-| Tarjetas | `#1e293b` |
-| Texto principal | `#f1f5f9` |
-| Texto secundario | `#94a3b8` |
-| Acento primario | `#a855f7` |
-| Acento hover | `#c084fc` |
-
----
-
-## Estructura del proyecto
+## 🗂️ Estructura del proyecto
 
 ```
 src/
@@ -101,19 +113,16 @@ src/
 ├── hooks/
 │   └── useActiveSection.ts
 ├── App.tsx
-├── main.tsx
 └── index.css
 public/
 └── Projects/
-    ├── enerlex/
-    │   └── logo.png
-    └── condorapp/
-        └── logo.png
+    ├── enerlex/logo.png
+    └── condorapp/logo.png
 ```
 
 ---
 
-## Correr el proyecto localmente
+## 🚀 Correr localmente
 
 ```bash
 # Instalar dependencias
@@ -126,21 +135,4 @@ npm run dev
 npm run build
 ```
 
-El servidor corre en `http://localhost:5173`
-
----
-
-## Personalización
-
-- **Proyectos:** editar `src/data/projects.ts`
-- **Skills y niveles:** editar `src/data/skills.ts`
-- **Imágenes de proyectos:** colocar en `public/Projects/<nombre>/`
-- **CV:** colocar `cv.pdf` en `public/`
-- **Formulario de contacto:** configurar EmailJS en `src/components/sections/Contact.tsx`
-
----
-
-## Links
-
-- GitHub: [github.com/Pardo250](https://github.com/Pardo250)
-- LinkedIn: [Juan Diego Pardo Ballesteros](https://www.linkedin.com/in/juan-diego-pardo-ballesteros-b96a4b2b9)
+Abre `http://localhost:5173` en el navegador.
