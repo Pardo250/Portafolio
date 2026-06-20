@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(node -e \"const si = require\\('react-icons/si'\\); console.log\\(Object.keys\\(si\\).filter\\(k => k.toLowerCase\\(\\).includes\\('sharp'\\) || k.toLowerCase\\(\\).includes\\('csharp'\\) || k.toLowerCase\\(\\).includes\\('dotnet'\\)\\).join\\(', '\\)\\)\")",
+      "Bash(node -e \"const tb = require\\('react-icons/tb'\\); const keys = Object.keys\\(tb\\).filter\\(k => k.toLowerCase\\(\\).includes\\('sharp'\\) || k.toLowerCase\\(\\).includes\\('csharp'\\) || k.toLowerCase\\(\\).includes\\('dotnet'\\)\\); console.log\\(keys.join\\(', '\\)\\)\")",
+      "Bash(node -e \"const si = require\\('react-icons/si'\\); const keys = Object.keys\\(si\\).filter\\(k => /java|python|css|html|mysql|mongo|postgres|typescript|javascript|cplusplus/i.test\\(k\\)\\); console.log\\(keys.sort\\(\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const fa = require\\('react-icons/fa'\\); const keys = Object.keys\\(fa\\).filter\\(k => /java/i.test\\(k\\)\\); console.log\\(keys.join\\(', '\\)\\)\")",
+      "Bash(taskkill /F /IM node.exe)",
+      "PowerShell(Stop-Process -Name \"node\" -Force -ErrorAction SilentlyContinue)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:5173/projects/enerlex/login.png\")",
+      "Bash(curl -s -I \"http://localhost:5173/projects/enerlex/login.png\")",
+      "Bash(curl -s -I \"http://localhost:5173/Projects/enerlex/login.png\")",
+      "Bash(curl -s -I \"http://localhost:5173/Projects/condorapp/login.png\")",
+      "Bash(curl -s -I \"http://localhost:5173/Projects/enerlex/logo.png\")"
+    ]
+  }
+}
