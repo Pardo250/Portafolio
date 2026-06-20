@@ -1,73 +1,146 @@
-# React + TypeScript + Vite
+# Portafolio Personal — Juan Diego Pardo Ballesteros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio web personal de **Juan Diego Pardo Ballesteros**, Ingeniero de Sistemas. Diseño oscuro, interactivo y completamente responsivo construido con React + Vite + TypeScript.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+| Tecnología | Uso |
+|---|---|
+| React 19 + TypeScript | Framework principal |
+| Vite 8 | Bundler y servidor de desarrollo |
+| Tailwind CSS v4 | Estilos utility-first |
+| Framer Motion | Animaciones y transiciones |
+| react-type-animation | Efecto typewriter en el Hero |
+| react-scroll | Smooth scroll entre secciones |
+| react-intersection-observer | Animaciones al hacer scroll |
+| react-icons | Íconos (Simple Icons, Tabler, Font Awesome) |
+| @emailjs/browser | Envío de formulario de contacto sin backend |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Secciones del portafolio
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Hero
+- Nombre con animación de entrada
+- Efecto typewriter que rota entre: *Ingeniero de Sistemas*, *Full Stack Developer*, *Problem Solver*, *Apasionado por el código*
+- Botones CTA: Ver proyectos / Contactar
+- Links a GitHub, LinkedIn y Email
+- Fondo con blobs animados y grid decorativo
+- Scroll indicator animado
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Sobre mí
+- Avatar / foto de perfil
+- Descripción personal
+- 4 stat cards: Proyectos, Años de experiencia, Dedicación, Cafés tomados
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Skills
+Organizado en 6 categorías con íconos, barras de nivel animadas y badges:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**Lenguajes:** Python, Java, C#, C++, JavaScript, TypeScript, HTML, CSS, Kotlin, Dart, Swift
+
+**Frameworks & Librerías:** React, Angular, Node.js, Express, Spring Boot, Flutter
+
+**Bases de datos:** MySQL, Firebase, DBeaver, SQLite, Supabase
+
+**DevOps & Infraestructura:** Docker, Kubernetes, GitHub Actions
+
+**Herramientas:** Git, GitHub, Figma, Postman, Bash
+
+**Conocimientos adicionales:** POO, Algoritmos, Estructuras de Datos, REST APIs, Scrum/Agile, CI/CD, Linux
+
+### Proyectos
+Cards interactivas con imagen, descripción, tags de tecnologías y link a GitHub. Filtros por tecnología en tiempo real.
+
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| **Enerlex** | App móvil que conecta a toma corrientes inteligentes para encender/apagar dispositivos y ahorrar energía | Flutter, Supabase |
+| **CondorApp** | Red social de viajes: reseñas, destinos turísticos, fotos, seguidores y mapa interactivo de ubicación | Kotlin, Firebase, Node.js, Express |
+
+### Contacto
+- Links a GitHub, LinkedIn y Email
+- Formulario de contacto (EmailJS — sin backend)
+- Botón para descargar CV en PDF
+
+---
+
+## Paleta de colores
+
+| Rol | Color |
+|---|---|
+| Fondo principal | `#0f172a` |
+| Fondo alterno | `#060d1f` |
+| Tarjetas | `#1e293b` |
+| Texto principal | `#f1f5f9` |
+| Texto secundario | `#94a3b8` |
+| Acento primario | `#a855f7` |
+| Acento hover | `#c084fc` |
+
+---
+
+## Estructura del proyecto
+
+```
+src/
+├── components/
+│   ├── Navbar.tsx
+│   ├── sections/
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   └── Contact.tsx
+│   └── ui/
+│       ├── SectionTitle.tsx
+│       ├── SkillBadge.tsx
+│       └── ProjectCard.tsx
+├── data/
+│   ├── skills.ts
+│   └── projects.ts
+├── hooks/
+│   └── useActiveSection.ts
+├── App.tsx
+├── main.tsx
+└── index.css
+public/
+└── Projects/
+    ├── enerlex/
+    │   └── logo.png
+    └── condorapp/
+        └── logo.png
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Correr el proyecto localmente
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Instalar dependencias
+npm install
+
+# Servidor de desarrollo
+npm run dev
+
+# Build de producción
+npm run build
 ```
+
+El servidor corre en `http://localhost:5173`
+
+---
+
+## Personalización
+
+- **Proyectos:** editar `src/data/projects.ts`
+- **Skills y niveles:** editar `src/data/skills.ts`
+- **Imágenes de proyectos:** colocar en `public/Projects/<nombre>/`
+- **CV:** colocar `cv.pdf` en `public/`
+- **Formulario de contacto:** configurar EmailJS en `src/components/sections/Contact.tsx`
+
+---
+
+## Links
+
+- GitHub: [github.com/Pardo250](https://github.com/Pardo250)
+- LinkedIn: [Juan Diego Pardo Ballesteros](https://www.linkedin.com/in/juan-diego-pardo-ballesteros-b96a4b2b9)
