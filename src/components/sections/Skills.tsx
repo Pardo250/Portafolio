@@ -69,8 +69,8 @@ export default function Skills() {
         />
 
         <CategorySection label="Lenguajes de programación" items={languages} columns={4} />
-        <CategorySection label="Frameworks & Librerías"    items={frameworks} columns={3} />
-        <CategorySection label="Bases de datos"            items={databases}  columns={3} />
+        <CategorySection label="Frameworks & Librerías"    items={frameworks} columns={5} />
+        <CategorySection label="Bases de datos"            items={databases}  columns={5} />
         <CategorySection label="DevOps & Infraestructura"  items={devops}     columns={3} />
         <CategorySection label="Herramientas"              items={tools}      columns={5} />
 

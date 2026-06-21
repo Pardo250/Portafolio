@@ -81,7 +81,7 @@ export default function About() {
               Disfruto trabajar tanto en el <span style={{ color: '#f1f5f9' }}>frontend</span> como en el{' '}
               <span style={{ color: '#f1f5f9' }}>backend</span>, siempre buscando aprender nuevas
               tecnologías y mejorar mis habilidades. Cuando no estoy programando, estoy explorando
-              nuevas ideas o tomando café ☕.
+              nuevas ideas.
             </p>
 
             {/* Stats */}

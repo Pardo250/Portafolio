@@ -7,7 +7,7 @@ export interface Skill {
 
 export const skills: Skill[] = [
   // Languages
-  { name: 'Python',      icon: 'SiPython',      category: 'language',  level: 85 },
+  { name: 'Python',      icon: 'SiPython',       category: 'language',  level: 85 },
   { name: 'Java',        icon: 'FaJava',         category: 'language',  level: 80 },
   { name: 'C#',          icon: 'TbBrandCSharp',  category: 'language',  level: 75 },
   { name: 'C++',         icon: 'SiCplusplus',    category: 'language',  level: 70 },
