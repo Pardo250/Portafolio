@@ -16,7 +16,8 @@
       "Bash(curl -s -I \"http://localhost:5173/projects/enerlex/login.png\")",
       "Bash(curl -s -I \"http://localhost:5173/Projects/enerlex/login.png\")",
       "Bash(curl -s -I \"http://localhost:5173/Projects/condorapp/login.png\")",
-      "Bash(curl -s -I \"http://localhost:5173/Projects/enerlex/logo.png\")"
+      "Bash(curl -s -I \"http://localhost:5173/Projects/enerlex/logo.png\")",
+      "PowerShell(Rename-Item -Path \"c:\\\\Users\\\\juand\\\\Downloads\\\\Portafolio\\\\public\\\\Projects\\\\Pacman\\\\Screenshot 2026-06-28 121343.png\" -NewName \"logo.png\")"
     ]
   }
 }

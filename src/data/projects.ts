@@ -41,7 +41,7 @@ export const projects: Project[] = [
     tags: ['Python', 'Pygame'],
     github: 'https://github.com/Pardo250/Pacman',
     demo: '',
-    image: '/Projects/Pacman/Screenshot 2026-06-28 121343.png',
+    image: '/Projects/Pacman/logo.png',
     featured: true,
   },
 ];
