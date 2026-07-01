@@ -35,6 +35,17 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    title: 'Mi Colección de Videojuegos',
+    description: 'Plataforma web para registrar videojuegos completados, con sistema de calificaciones y reseñas personales.',
+    longDescription: 'Aplicación web full-stack donde el usuario puede gestionar su colección de videojuegos completados. Permite agregar juegos, asignarles una calificación y escribir reseñas con opiniones personales. Frontend desarrollado en Angular con Tailwind CSS, backend con Spring Boot y base de datos PostgreSQL.',
+    tags: ['Angular', 'Spring Boot', 'PostgreSQL', 'Tailwind CSS'],
+    github: 'https://github.com/Pardo250/Videojuegos-front',
+    demo: '',
+    image: '/Projects/Videojuegos/logo.png',
+    featured: true,
+  },
+  {
+    id: 4,
     title: 'Pacman',
     description: 'Recreación del clásico juego Pacman desarrollada en Python con Pygame.',
     longDescription: 'Juego Pacman clásico implementado en Python utilizando la librería Pygame. Incluye mecánicas de movimiento del personaje, fantasmas con comportamiento de persecución, recolección de puntos, niveles y sistema de puntuación.',
